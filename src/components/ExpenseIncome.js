@@ -3,10 +3,10 @@ import "./components.css";
 import cx from "classnames";
 import CountUp from "react-countup";
 import { globalContext } from "./../globalContext/Context";
-import { CurrentBalance } from "./CurrentBalance";
+import { CurrentBalance } from "./index";
 import "./components.css";
 
-export const ExpenseIncome = () => {
+ const ExpenseIncome = () => {
   let { state } = useContext(globalContext);
 
   const getIncome = () => {
@@ -55,3 +55,5 @@ export const ExpenseIncome = () => {
     </div>
   );
 };
+
+export default ExpenseIncome

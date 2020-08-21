@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./component.css";
 import { globalContext } from "./../globalContext/Context";
 import cx from "classnames";
-export const Transactiion = () => {
+ const Transactiion = () => {
   const { state } = useContext(globalContext);
   // const { deleteTransaction } = useContext(globalContext);
   console.log("data  ", state);
@@ -19,3 +19,5 @@ export const Transactiion = () => {
     </div>
   );
 };
+
+export default Transactiion

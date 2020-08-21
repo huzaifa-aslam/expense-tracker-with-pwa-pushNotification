@@ -4,7 +4,7 @@ import './components.css'
 import Typing from 'react-typing-animation';
 
 // import useWebAnimations,{rubberBand} from "@wellyshen/use-web-animations";
-export const Header = () => {
+const Header = () => {
     // const { ref, playState,getAnimation } = useWebAnimations({...rubberBand
     // });
 
@@ -14,3 +14,4 @@ export const Header = () => {
         </div>
     )
 }
+export default Header

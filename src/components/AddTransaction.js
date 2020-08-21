@@ -3,7 +3,7 @@ import { globalContext } from "./../globalContext/Context";
 import './components.css'
 
 import { Form, Button } from "react-bootstrap";
-export const AddTransaction = () => {
+ const AddTransaction = () => {
   const [amount, setAmount] = useState(0);
   const [disc, setDisc] = useState("");
 
@@ -67,3 +67,5 @@ e.preventDefault()
     </div>
   );
 };
+
+export default AddTransaction

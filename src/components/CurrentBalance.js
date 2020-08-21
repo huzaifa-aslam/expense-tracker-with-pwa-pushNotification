@@ -4,7 +4,7 @@ import './components.css'
 import cx from 'classnames'
 
 
-export const CurrentBalance = ({currentBlnce}) => {
+ const CurrentBalance = ({currentBlnce}) => {
 
     return (
         <div className={cx('tc','bgHeader','mv2','br4','textWhite')} >
@@ -14,3 +14,4 @@ export const CurrentBalance = ({currentBlnce}) => {
         </div>
     )
 }
+export default CurrentBalance
