@@ -8,7 +8,7 @@ import cx from 'classnames'
 
     return (
         <div className={cx('tc','bgHeader','mv2','br4','textWhite')} >
-            <h3>Your Balance</h3>
+            <h3>Your Balance is</h3>
             <h2>$<CountUp start={0} end={currentBlnce} duration={2.5} separator=","/></h2>
 
         </div>
