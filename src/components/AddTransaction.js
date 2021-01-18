@@ -44,7 +44,7 @@ e.preventDefault()
             required="required"
             type="text"
             onChange={getDisc}
-            placeholder="Enter Discription..."
+            placeholder="Enter Your Discription..."
           />
 
         </Form.Group>
